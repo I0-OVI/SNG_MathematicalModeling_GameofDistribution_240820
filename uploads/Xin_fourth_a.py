@@ -1,7 +1,7 @@
 def _strategy(history_a,history_b):
     import math
     if not history_a:
-        return 55000
+        return 50001
 
     price=history_a[-1]
     i=len(history_a)+1
